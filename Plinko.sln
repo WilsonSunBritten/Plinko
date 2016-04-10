@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plinko.CSharp.Plugins", "Plinko.CSharp.Plugins.csproj", "{880AFCA2-2507-3073-C684-20BC93199B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plinko.CSharp", "Plinko.CSharp.csproj", "{97C9AC2D-6B48-FF89-8603-C76FFEBAC902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plinko.CSharp.Editor", "Plinko.CSharp.Editor.csproj", "{AFA8098D-5883-6160-7F1E-B0CBD5FDC3EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{880AFCA2-2507-3073-C684-20BC93199B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880AFCA2-2507-3073-C684-20BC93199B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880AFCA2-2507-3073-C684-20BC93199B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880AFCA2-2507-3073-C684-20BC93199B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C9AC2D-6B48-FF89-8603-C76FFEBAC902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C9AC2D-6B48-FF89-8603-C76FFEBAC902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C9AC2D-6B48-FF89-8603-C76FFEBAC902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C9AC2D-6B48-FF89-8603-C76FFEBAC902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA8098D-5883-6160-7F1E-B0CBD5FDC3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA8098D-5883-6160-7F1E-B0CBD5FDC3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA8098D-5883-6160-7F1E-B0CBD5FDC3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA8098D-5883-6160-7F1E-B0CBD5FDC3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
