@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Accelerometer : MonoBehaviour {
@@ -11,7 +11,14 @@ public class Accelerometer : MonoBehaviour {
 	void Update () {
         ConstantForce2D force = GetComponent<ConstantForce2D>();//transform.Translate(Input.acceleration.x / 10, 0, 0);//Input.acceleration.x, Input.acceleration.y, Input.acceleration.z);
         var myForce = force.force;
-        myForce.x = Score.accelerometerDirection* Input.acceleration.x * 8f;
+		var direction = 0f;
+		if (Input.GetKey("a")) {
+			direction = direction - 1f;
+		}
+		if (Input.GetKey("d")) {
+			direction = direction + 1f;
+		}
+        myForce.x = Score.accelerometerDirection* direction * 2f;//originally "Score.accelerometerDirection* Input.acceleration.x * 8f;"
         force.force = myForce;
 
 
@@ -19,3 +26,4 @@ public class Accelerometer : MonoBehaviour {
         //GUI.Label(new Rect(0, 0, 100, 100), x.ToString());
 	}
 }
+
