@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class pause : MonoBehaviour {
@@ -10,14 +10,7 @@ public class pause : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update() {
-        var button = Input.GetButton("Button");
-
-        if (button)
-        {
-            ButtonClickedEvent();
-        }
-    }
+    void Update() {}
 
     void ButtonClickedEvent()
     {
