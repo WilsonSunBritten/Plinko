@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
@@ -104,7 +104,7 @@ public class PegGenerator : MonoBehaviour {
             }
         else if(rand == 6)
             {
-                peg = (GameObject)Resources.Load("CursedPeg");
+                peg = (GameObject)Resources.Load("Peg"); // "CursedPeg" is not finished
             }
         else if(rand == 7)
             {
